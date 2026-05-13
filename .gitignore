@@ -1,0 +1,32 @@
+# Unreal Engine generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.opensdf
+*.sdf
+
+# Rider
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled assets
+*.pdb
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Backup files
+*.bak
+*.tmp
