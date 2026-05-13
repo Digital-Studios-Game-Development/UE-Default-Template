@@ -11,12 +11,19 @@ A Blueprint-only Unreal Engine 4.27 project template built to accelerate the ini
 ## Installation
 
 1. Clone or download this repository
-2. Place the folder inside your UE4 templates directory:
+2. Rename the folder following the Unreal template naming convention:
+   ```
+   TP_<ProjectName>BP
+   ```
+   - `TP_` prefix identifies it as a template
+   - `BP` suffix indicates it is a Blueprint-only project
+   - Example: `TP_DefaultTemplateBP`, `TP_PlatformerBP`, `TP_TopDownBP`
+3. Place the renamed folder inside your UE4 templates directory:
    ```
    Epic Games/UE_4.27/Templates/
    ```
-3. Restart the Unreal Engine launcher
-4. The template will appear under **Games** when creating a new project
+4. Restart the Unreal Engine launcher
+5. The template will appear under **Games** when creating a new project
 
 ## What's Included
 
